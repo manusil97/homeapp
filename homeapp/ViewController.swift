@@ -14,6 +14,7 @@ class ViewController: UIViewController, MKMapViewDelegate,CLLocationManagerDeleg
     @IBOutlet var userButton: UIBarButtonItem!
     var userPosition: CLLocationCoordinate2D!
     var locationManager: CLLocationManager!
+    
     @IBOutlet weak var map : MKMapView! = MKMapView()
     
     override func viewDidLoad() {

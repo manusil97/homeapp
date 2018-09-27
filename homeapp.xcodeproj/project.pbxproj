@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057DC78A215CEC7D0089BB55 /* AlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057DC789215CEC7D0089BB55 /* AlbumViewCell.swift */; };
 		3D1BD276215CD305000C6995 /* ProgressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD275215CD305000C6995 /* ProgressTableViewController.swift */; };
 		3D1BD278215CD9B6000C6995 /* TrophiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD277215CD9B6000C6995 /* TrophiesTableViewController.swift */; };
 		3D1BD27A215CDBA3000C6995 /* StickersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD279215CDBA3000C6995 /* StickersTableViewController.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		057DC789215CEC7D0089BB55 /* AlbumViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewCell.swift; sourceTree = "<group>"; };
 		3D1BD275215CD305000C6995 /* ProgressTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTableViewController.swift; sourceTree = "<group>"; };
 		3D1BD277215CD9B6000C6995 /* TrophiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophiesTableViewController.swift; sourceTree = "<group>"; };
 		3D1BD279215CDBA3000C6995 /* StickersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickersTableViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				3D1BD27F215CE8E6000C6995 /* PopupViewController.swift */,
 				3D1BD27D215CDCB5000C6995 /* SettingsTableViewController.swift */,
 				3D1BD27B215CDC37000C6995 /* AlbumTableViewController.swift */,
+				057DC789215CEC7D0089BB55 /* AlbumViewCell.swift */,
 				3D1BD279215CDBA3000C6995 /* StickersTableViewController.swift */,
 				3D1BD277215CD9B6000C6995 /* TrophiesTableViewController.swift */,
 				3D1BD275215CD305000C6995 /* ProgressTableViewController.swift */,
@@ -306,6 +309,7 @@
 				3D1BD27C215CDC37000C6995 /* AlbumTableViewController.swift in Sources */,
 				3D1BD276215CD305000C6995 /* ProgressTableViewController.swift in Sources */,
 				3D1BD27A215CDBA3000C6995 /* StickersTableViewController.swift in Sources */,
+				057DC78A215CEC7D0089BB55 /* AlbumViewCell.swift in Sources */,
 				3D8ACA91215B9257000B7119 /* AppDelegate.swift in Sources */,
 				3D1BD280215CE8E6000C6995 /* PopupViewController.swift in Sources */,
 				3D1BD278215CD9B6000C6995 /* TrophiesTableViewController.swift in Sources */,

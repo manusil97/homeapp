@@ -10,9 +10,29 @@ import UIKit
 
 class AlbumTableViewController: UITableViewController {
 
+    let CityName = ["Londra","Barcellona","Monaco","Parigi"]
+    let CityImages = ["Londra_1217","Barcellona","monaco-di-baviera","Napoli","Parigi"]
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return CityName.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cellidentifier = "Cell"
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellidentifier, for: indexPath) as! AlbumViewCell
+        
+        cell.CityLabel.text = CityName[indexPath.row]
+        cell.thumbnailImageView.image = UIImage(named: CityImages[indexPath.row])
+                
+        return cell
+    }
     
     @IBOutlet var menuButton: UIBarButtonItem!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,6 +41,7 @@ class AlbumTableViewController: UITableViewController {
             menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
+        
     }
 
     override func didReceiveMemoryWarning() {
