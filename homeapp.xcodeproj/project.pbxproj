@@ -12,6 +12,7 @@
 		3D1BD27A215CDBA3000C6995 /* StickersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD279215CDBA3000C6995 /* StickersTableViewController.swift */; };
 		3D1BD27C215CDC37000C6995 /* AlbumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD27B215CDC37000C6995 /* AlbumTableViewController.swift */; };
 		3D1BD27E215CDCB5000C6995 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD27D215CDCB5000C6995 /* SettingsTableViewController.swift */; };
+		3D1BD280215CE8E6000C6995 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD27F215CE8E6000C6995 /* PopupViewController.swift */; };
 		3D71706F215BC853006F6A2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71706E215BC853006F6A2E /* MapKit.framework */; };
 		3D8ACA91215B9257000B7119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8ACA90215B9257000B7119 /* AppDelegate.swift */; };
 		3D8ACA96215B9257000B7119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8ACA94215B9257000B7119 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		3D1BD279215CDBA3000C6995 /* StickersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickersTableViewController.swift; sourceTree = "<group>"; };
 		3D1BD27B215CDC37000C6995 /* AlbumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewController.swift; sourceTree = "<group>"; };
 		3D1BD27D215CDCB5000C6995 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		3D1BD27F215CE8E6000C6995 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		3D71706E215BC853006F6A2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3D8ACA8D215B9257000B7119 /* homeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8ACA90215B9257000B7119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				3D8ACA94215B9257000B7119 /* Main.storyboard */,
 				3D8ACA97215B9257000B7119 /* Assets.xcassets */,
 				3D8ACA99215B9257000B7119 /* LaunchScreen.storyboard */,
+				3D1BD27F215CE8E6000C6995 /* PopupViewController.swift */,
 				3D1BD27D215CDCB5000C6995 /* SettingsTableViewController.swift */,
 				3D1BD27B215CDC37000C6995 /* AlbumTableViewController.swift */,
 				3D1BD279215CDBA3000C6995 /* StickersTableViewController.swift */,
@@ -304,6 +307,7 @@
 				3D1BD276215CD305000C6995 /* ProgressTableViewController.swift in Sources */,
 				3D1BD27A215CDBA3000C6995 /* StickersTableViewController.swift in Sources */,
 				3D8ACA91215B9257000B7119 /* AppDelegate.swift in Sources */,
+				3D1BD280215CE8E6000C6995 /* PopupViewController.swift in Sources */,
 				3D1BD278215CD9B6000C6995 /* TrophiesTableViewController.swift in Sources */,
 				3DF29674215BB0A9008F1B8B /* ProfileTableViewController.swift in Sources */,
 				3D8ACAC1215B92E2000B7119 /* SWRevealViewController.m in Sources */,

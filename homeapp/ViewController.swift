@@ -46,5 +46,12 @@ class ViewController: UIViewController, MKMapViewDelegate,CLLocationManagerDeleg
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
             }
     }
-
+    @IBAction func showPopup(_ sender: Any) {
+        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "sbPopUpID") as! PopupViewController
+        self.addChildViewController(popOverVC)
+        popOverVC.view.frame = self.view.frame
+        self.view.addSubview(popOverVC.view)
+        popOverVC.didMove(toParentViewController: self)
+    }
+    
 }
