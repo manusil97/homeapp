@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D59A1D7215BE8ED00EE6B29 /* TrophiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59A1D6215BE8ED00EE6B29 /* TrophiesViewController.swift */; };
+		3D59A1D9215BEA8800EE6B29 /* StickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59A1D8215BEA8800EE6B29 /* StickersViewController.swift */; };
+		3D59A1DB215BEB2700EE6B29 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59A1DA215BEB2700EE6B29 /* AlbumViewController.swift */; };
+		3D59A1DD215BEBC800EE6B29 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59A1DC215BEBC800EE6B29 /* SettingsViewController.swift */; };
+		3D71706F215BC853006F6A2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71706E215BC853006F6A2E /* MapKit.framework */; };
+		3D717071215BCF0D006F6A2E /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D717070215BCF0D006F6A2E /* ProgressViewController.swift */; };
 		3D8ACA91215B9257000B7119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8ACA90215B9257000B7119 /* AppDelegate.swift */; };
-		3D8ACA93215B9257000B7119 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8ACA92215B9257000B7119 /* ViewController.swift */; };
 		3D8ACA96215B9257000B7119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8ACA94215B9257000B7119 /* Main.storyboard */; };
 		3D8ACA98215B9257000B7119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8ACA97215B9257000B7119 /* Assets.xcassets */; };
 		3D8ACA9B215B9257000B7119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8ACA99215B9257000B7119 /* LaunchScreen.storyboard */; };
 		3D8ACAA6215B9258000B7119 /* homeappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8ACAA5215B9258000B7119 /* homeappTests.swift */; };
 		3D8ACAB1215B9258000B7119 /* homeappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8ACAB0215B9258000B7119 /* homeappUITests.swift */; };
+		3D8ACAC1215B92E2000B7119 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8ACABF215B92E2000B7119 /* SWRevealViewController.m */; };
+		3D8ACAC3215B9497000B7119 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8ACAC2215B9497000B7119 /* ViewController.swift */; };
+		3DF29674215BB0A9008F1B8B /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF29673215BB0A9008F1B8B /* ProfileTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D59A1D6215BE8ED00EE6B29 /* TrophiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophiesViewController.swift; sourceTree = "<group>"; };
+		3D59A1D8215BEA8800EE6B29 /* StickersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickersViewController.swift; sourceTree = "<group>"; };
+		3D59A1DA215BEB2700EE6B29 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		3D59A1DC215BEBC800EE6B29 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3D71706E215BC853006F6A2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3D717070215BCF0D006F6A2E /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		3D8ACA8D215B9257000B7119 /* homeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8ACA90215B9257000B7119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D8ACA92215B9257000B7119 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D8ACA95215B9257000B7119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D8ACA97215B9257000B7119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D8ACA9A215B9257000B7119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,11 @@
 		3D8ACAAC215B9258000B7119 /* homeappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8ACAB0215B9258000B7119 /* homeappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeappUITests.swift; sourceTree = "<group>"; };
 		3D8ACAB2215B9258000B7119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8ACABE215B92E1000B7119 /* homeapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "homeapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D8ACABF215B92E2000B7119 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3D8ACAC0215B92E2000B7119 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		3D8ACAC2215B9497000B7119 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DF29673215BB0A9008F1B8B /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D71706F215BC853006F6A2E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D71706D215BC853006F6A2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D71706E215BC853006F6A2E /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3D8ACA84215B9257000B7119 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,7 @@
 				3D8ACAA4215B9258000B7119 /* homeappTests */,
 				3D8ACAAF215B9258000B7119 /* homeappUITests */,
 				3D8ACA8E215B9257000B7119 /* Products */,
+				3D71706D215BC853006F6A2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +126,20 @@
 			isa = PBXGroup;
 			children = (
 				3D8ACA90215B9257000B7119 /* AppDelegate.swift */,
-				3D8ACA92215B9257000B7119 /* ViewController.swift */,
 				3D8ACA94215B9257000B7119 /* Main.storyboard */,
 				3D8ACA97215B9257000B7119 /* Assets.xcassets */,
 				3D8ACA99215B9257000B7119 /* LaunchScreen.storyboard */,
+				3D59A1DC215BEBC800EE6B29 /* SettingsViewController.swift */,
+				3D59A1DA215BEB2700EE6B29 /* AlbumViewController.swift */,
+				3D59A1D8215BEA8800EE6B29 /* StickersViewController.swift */,
+				3D59A1D6215BE8ED00EE6B29 /* TrophiesViewController.swift */,
+				3D717070215BCF0D006F6A2E /* ProgressViewController.swift */,
+				3DF29673215BB0A9008F1B8B /* ProfileTableViewController.swift */,
+				3D8ACAC2215B9497000B7119 /* ViewController.swift */,
 				3D8ACA9C215B9257000B7119 /* Info.plist */,
+				3D8ACAC0215B92E2000B7119 /* SWRevealViewController.h */,
+				3D8ACABF215B92E2000B7119 /* SWRevealViewController.m */,
+				3D8ACABE215B92E1000B7119 /* homeapp-Bridging-Header.h */,
 			);
 			path = homeapp;
 			sourceTree = "<group>";
@@ -193,6 +230,12 @@
 				TargetAttributes = {
 					3D8ACA8C215B9257000B7119 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					3D8ACAA0215B9257000B7119 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -256,8 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8ACA93215B9257000B7119 /* ViewController.swift in Sources */,
+				3D717071215BCF0D006F6A2E /* ProgressViewController.swift in Sources */,
+				3D8ACAC3215B9497000B7119 /* ViewController.swift in Sources */,
+				3D59A1D7215BE8ED00EE6B29 /* TrophiesViewController.swift in Sources */,
 				3D8ACA91215B9257000B7119 /* AppDelegate.swift in Sources */,
+				3D59A1DB215BEB2700EE6B29 /* AlbumViewController.swift in Sources */,
+				3D59A1D9215BEA8800EE6B29 /* StickersViewController.swift in Sources */,
+				3DF29674215BB0A9008F1B8B /* ProfileTableViewController.swift in Sources */,
+				3D8ACAC1215B92E2000B7119 /* SWRevealViewController.m in Sources */,
+				3D59A1DD215BEBC800EE6B29 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93JF9LS6ZY;
 				INFOPLIST_FILE = homeapp/Info.plist;
@@ -439,6 +490,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = it.parthenope.iosdeveloper.homeapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "homeapp/homeapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93JF9LS6ZY;
 				INFOPLIST_FILE = homeapp/Info.plist;
@@ -457,6 +511,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = it.parthenope.iosdeveloper.homeapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "homeapp/homeapp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
