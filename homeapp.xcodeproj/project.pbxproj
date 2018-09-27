@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D59A1D7215BE8ED00EE6B29 /* TrophiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59A1D6215BE8ED00EE6B29 /* TrophiesViewController.swift */; };
-		3D59A1D9215BEA8800EE6B29 /* StickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59A1D8215BEA8800EE6B29 /* StickersViewController.swift */; };
-		3D59A1DB215BEB2700EE6B29 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59A1DA215BEB2700EE6B29 /* AlbumViewController.swift */; };
-		3D59A1DD215BEBC800EE6B29 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59A1DC215BEBC800EE6B29 /* SettingsViewController.swift */; };
+		3D1BD276215CD305000C6995 /* ProgressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD275215CD305000C6995 /* ProgressTableViewController.swift */; };
+		3D1BD278215CD9B6000C6995 /* TrophiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD277215CD9B6000C6995 /* TrophiesTableViewController.swift */; };
+		3D1BD27A215CDBA3000C6995 /* StickersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD279215CDBA3000C6995 /* StickersTableViewController.swift */; };
+		3D1BD27C215CDC37000C6995 /* AlbumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD27B215CDC37000C6995 /* AlbumTableViewController.swift */; };
+		3D1BD27E215CDCB5000C6995 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD27D215CDCB5000C6995 /* SettingsTableViewController.swift */; };
 		3D71706F215BC853006F6A2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71706E215BC853006F6A2E /* MapKit.framework */; };
-		3D717071215BCF0D006F6A2E /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D717070215BCF0D006F6A2E /* ProgressViewController.swift */; };
 		3D8ACA91215B9257000B7119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8ACA90215B9257000B7119 /* AppDelegate.swift */; };
 		3D8ACA96215B9257000B7119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8ACA94215B9257000B7119 /* Main.storyboard */; };
 		3D8ACA98215B9257000B7119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8ACA97215B9257000B7119 /* Assets.xcassets */; };
@@ -42,12 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D59A1D6215BE8ED00EE6B29 /* TrophiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophiesViewController.swift; sourceTree = "<group>"; };
-		3D59A1D8215BEA8800EE6B29 /* StickersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickersViewController.swift; sourceTree = "<group>"; };
-		3D59A1DA215BEB2700EE6B29 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
-		3D59A1DC215BEBC800EE6B29 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3D1BD275215CD305000C6995 /* ProgressTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTableViewController.swift; sourceTree = "<group>"; };
+		3D1BD277215CD9B6000C6995 /* TrophiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophiesTableViewController.swift; sourceTree = "<group>"; };
+		3D1BD279215CDBA3000C6995 /* StickersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickersTableViewController.swift; sourceTree = "<group>"; };
+		3D1BD27B215CDC37000C6995 /* AlbumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewController.swift; sourceTree = "<group>"; };
+		3D1BD27D215CDCB5000C6995 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		3D71706E215BC853006F6A2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		3D717070215BCF0D006F6A2E /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		3D8ACA8D215B9257000B7119 /* homeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8ACA90215B9257000B7119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D8ACA95215B9257000B7119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -129,11 +129,11 @@
 				3D8ACA94215B9257000B7119 /* Main.storyboard */,
 				3D8ACA97215B9257000B7119 /* Assets.xcassets */,
 				3D8ACA99215B9257000B7119 /* LaunchScreen.storyboard */,
-				3D59A1DC215BEBC800EE6B29 /* SettingsViewController.swift */,
-				3D59A1DA215BEB2700EE6B29 /* AlbumViewController.swift */,
-				3D59A1D8215BEA8800EE6B29 /* StickersViewController.swift */,
-				3D59A1D6215BE8ED00EE6B29 /* TrophiesViewController.swift */,
-				3D717070215BCF0D006F6A2E /* ProgressViewController.swift */,
+				3D1BD27D215CDCB5000C6995 /* SettingsTableViewController.swift */,
+				3D1BD27B215CDC37000C6995 /* AlbumTableViewController.swift */,
+				3D1BD279215CDBA3000C6995 /* StickersTableViewController.swift */,
+				3D1BD277215CD9B6000C6995 /* TrophiesTableViewController.swift */,
+				3D1BD275215CD305000C6995 /* ProgressTableViewController.swift */,
 				3DF29673215BB0A9008F1B8B /* ProfileTableViewController.swift */,
 				3D8ACAC2215B9497000B7119 /* ViewController.swift */,
 				3D8ACA9C215B9257000B7119 /* Info.plist */,
@@ -299,15 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D717071215BCF0D006F6A2E /* ProgressViewController.swift in Sources */,
 				3D8ACAC3215B9497000B7119 /* ViewController.swift in Sources */,
-				3D59A1D7215BE8ED00EE6B29 /* TrophiesViewController.swift in Sources */,
+				3D1BD27C215CDC37000C6995 /* AlbumTableViewController.swift in Sources */,
+				3D1BD276215CD305000C6995 /* ProgressTableViewController.swift in Sources */,
+				3D1BD27A215CDBA3000C6995 /* StickersTableViewController.swift in Sources */,
 				3D8ACA91215B9257000B7119 /* AppDelegate.swift in Sources */,
-				3D59A1DB215BEB2700EE6B29 /* AlbumViewController.swift in Sources */,
-				3D59A1D9215BEA8800EE6B29 /* StickersViewController.swift in Sources */,
+				3D1BD278215CD9B6000C6995 /* TrophiesTableViewController.swift in Sources */,
 				3DF29674215BB0A9008F1B8B /* ProfileTableViewController.swift in Sources */,
 				3D8ACAC1215B92E2000B7119 /* SWRevealViewController.m in Sources */,
-				3D59A1DD215BEBC800EE6B29 /* SettingsViewController.swift in Sources */,
+				3D1BD27E215CDCB5000C6995 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
