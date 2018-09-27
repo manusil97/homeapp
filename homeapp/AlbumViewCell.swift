@@ -13,8 +13,6 @@ class AlbumViewCell: UITableViewCell {
     @IBOutlet var CityLabel: UILabel!
     @IBOutlet var thumbnailImageView: UIImageView!
     
-    
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         
